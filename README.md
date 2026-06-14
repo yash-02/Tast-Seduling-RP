@@ -6,7 +6,7 @@ A machine learning system for intelligent CPU vs GPU job routing. This project t
 
 The system addresses a core infrastructure problem: **How should incoming computational jobs be routed to CPU or GPU queues?** 
 
-Using historical job execution data, the models learn patterns from resource requests, user behavior, and temporal features to:
+Using historical job execution data, the models learn patterns from resource requests,and temporal features to:
 - **Classify** jobs as CPU-bound or GPU-bound
 - **Predict** job duration in log-scale seconds
 - **Route** jobs to appropriate queues with configurable policies
@@ -446,5 +446,6 @@ See `requirements.txt`:
 ## Contact
 
 For questions or issues, contact the development team or submit an issue.
-#   T a s t - S e d u l i n g - R P  
+#   T a s t - S e d u l i n g - R P 
+ 
  
